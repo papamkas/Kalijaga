@@ -1,0 +1,131 @@
+:root{
+
+}
+.btn-group-vertical>.btn:not(:first-child),
+.btn-group-vertical>.btn-group:not(:first-child) {
+margin-top: 0;
+}
+/* Style untuk tombol dan input */
+.btn-sm {
+  width: 30px; /* Lebar tombol */
+  height: 30px; /* Tinggi tombol */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* Hilangkan padding agar ukuran tetap konsisten */
+}
+
+.form-control-styling {
+  width: 50px; /* Sesuaikan lebar input */
+  height: 30px; /* Sesuaikan tinggi input dengan tombol */
+  text-align: center; /* Teks di tengah */
+  padding: 0; /* Hilangkan padding agar ukuran tetap konsisten */
+  margin: 0 5px; /* Jarak antara tombol dan input */
+}
+/* @media (max-width: 1000px) {
+    .col-6 {
+      padding: 5px;
+    }
+  
+    .card {
+      max-width: 100%;
+      background-color: #3F4F44;
+    }
+  
+    .card .col-md-4, 
+    .card .col-md-8 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .d-flex {
+      justify-content: center;
+    }
+  }
+  
+   */
+
+.text-cerah{
+    color: #D9D9D9 ;
+}
+.text-coklat{
+    color: #54473F ;
+}
+.drop-shadow{
+    box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.5)
+}
+.bg-hijau{
+    background-color: #3F4F44 ;
+}
+.bg-coklat{
+    background-color: #54473F;
+}
+.bg-cerah{
+    background-color: #E3DFC8;
+}
+.text-plain{
+    font-family: 'Philosopher';
+}
+.text-kalijaga{
+    font-family: 'upakarti';
+}
+.border-radius{
+    border-radius: 61px 61px 61px 61px;
+}
+.btn-hijau{
+  background-color: #3F4F44;
+  color: #D9D9D9;
+  box-shadow: 3px 5px 35px 5px rgba(0, 0, 0, 0.5);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+.btn-hijau:hover{
+  background-color: #D9D9D9;
+  color: #3F4F44;
+  border-radius: 12px;
+
+}
+.btn-makanan-minuman{
+    background-color: #3F4F44;
+    color: #D9D9D9;
+    box-shadow: 3px 5px 35px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.btn-makanan-minuman:hover{
+  background-color: #D9D9D9;
+  color: #3F4F44;
+}
+.btn-outline-secondary.btn-sm,
+.btn-outline-primary.btn-sm {
+  background-color: #D9D9D9 !important;
+  border-color: #D9D9D9 !important;
+  color: black !important;
+}
+.footer-p{
+    font-family: "upakarti", sans;
+    color: #D9D9D9;
+    gap: 2px;
+}
+.footer-text{
+  text-decoration: none !important;
+  color: #D9D9D9 !important;
+}
